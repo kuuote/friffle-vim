@@ -20,6 +20,7 @@ let s:fg4="#138a72"
 let s:bg2="#343e42"
 let s:bg3="#454f53"
 let s:bg4="#575f63"
+let s:bg5="#111719"
 let s:keyword="#66aabb"
 let s:builtin="#B7416E"
 let s:const= "#E84F4F"
@@ -31,7 +32,7 @@ let s:var="#6D878D"
 let s:warning="#F07746"
 let s:warning2="#D23D3D"
 
-exe 'hi Normal guifg='s:fg' guibg=NONE'
+exe 'hi Normal guifg='s:fg' guibg='s:bg5
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
 exe 'hi CursorLine  guibg='s:bg2
 exe 'hi CursorLineNr guifg='s:keyword' guibg=NONE'
